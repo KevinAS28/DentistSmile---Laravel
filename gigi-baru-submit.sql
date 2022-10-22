@@ -294,7 +294,7 @@ CREATE TABLE `orangtua` (
   `tanggal_lahir` date DEFAULT NULL,
   `nama` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `alamat` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `pendidikan` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `pendidikan` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   `deleted_at` timestamp NULL DEFAULT NULL,
