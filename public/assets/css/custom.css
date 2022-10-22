@@ -1,0 +1,70 @@
+.btn-custom{
+    background-color: #68D4EA;
+}
+.btn-custom:hover {
+    background-color: #3fd0ed;
+    font-weight: 500;
+}
+.sidebar .sidebar-body .nav.sub-menu .nav-item .nav-link.active {
+    background-color: #4dd6f1;
+    color: white;
+}
+.sidebar .sidebar-body .nav .nav-item.active .nav-link {
+   color: black; 
+}
+.sidebar .sidebar-body .nav .nav-item.active .nav-link {
+    color:black
+}
+
+.table thead th {
+    border-top: 0;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #6571ff;
+}
+
+.wizard > .steps .current a, .wizard > .steps .current a:active, .wizard > .steps .current a:hover {
+    background-color: #1572A1;
+    border: 1px solid transparent;  
+}
+.wizard > .steps .done a, .wizard > .steps .done a:active, .wizard > .steps .done a:hover {
+    background-color: #E9ECEF;
+    color: #000;
+    
+}
+
+.form-check-input:checked {
+    background-color: #1572A1;
+    border-color: #1572A1;
+}
+
+.btn-primary, .wizard > .actions a, .wizard > .actions a:active, .wizard > .actions a:hover, div.tox .tox-button:not(.tox-button--naked):not(.tox-button--secondary), .swal2-popup .swal2-actions button.swal2-confirm, .fc .fc-button-primary:not(:disabled).fc-button-active, .fc .fc-button-primary:not(:disabled):active {
+    color: #fff;
+    background-color: #239BDA;
+    border-color: #239BDA;
+}
+.pilih-anak-ortu{
+    margin-left:50% ;
+  }
+@media only screen and (max-device-width: 480px) {
+   .card-dashboard-ortu{
+    width: fit-content;
+   }
+   .anak-ttl , .anak-jk{
+    display: none;
+   }
+   .table-ortu-dashboard{
+    width: fit-content;
+   }
+  .pilih-anak-ortu{
+    margin-top:40px;
+    margin-left:-150px;
+  }
+  .pilih-anak{
+    width: 100px;
+  }
+
+  
+
+ }
